@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
     }
 
     const string inputPuzzleFile = string(argv[1]);
+    const string puzzleinput = inputPuzzleFile + ".txt";
 
     // Check if the input file exists and is readable
     ifstream inputFile(inputPuzzleFile);
